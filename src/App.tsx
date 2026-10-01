@@ -503,7 +503,7 @@ function Session({ credentials, onLogout }: { credentials: Credentials; onLogout
                 </button>
               </form>
               <div className="composer-hint">
-                <span>Enter — отправить · Shift + Enter — новая строка</span>
+                <span>Enter - отправить; Shift + Enter - новая строка</span>
                 <span>
                   {draft.length} / {MAX_MESSAGE_LENGTH}
                 </span>
